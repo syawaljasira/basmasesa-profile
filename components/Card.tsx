@@ -1,8 +1,6 @@
-import React, {
-  ComponentPropsWithoutRef,
-  ComponentPropsWithRef,
-  useRef,
-} from "react";
+"use client";
+
+import { ComponentPropsWithoutRef, ComponentPropsWithRef, useRef } from "react";
 import Link from "next/link";
 import { HiChevronRight } from "react-icons/hi";
 import "./Card.scss";
@@ -12,6 +10,7 @@ import Image from "next/image";
 import { PortfolioType } from "@/lib/types";
 import { useMain } from "@/hooks/useMain";
 import { StaticImport } from "next/dist/shared/lib/get-img-props.js";
+import { BadgePrimary } from "./Badge";
 
 const animation2 = (isInView: boolean, delay: number) => {
   const style = {
@@ -51,14 +50,12 @@ export const TestiCard = ({
     >
       <Image src={image} alt="User Avatar" />
       <div className="flex flex-col items-center lg:space-y-1 2xl:space-y-3">
-        <h5 className="font-bold text-xl tracking-wide sm:text-3xl lg:text-1.6vw 2xl:text-1.7vw">
-          {name}
-        </h5>
-        <h6 className="font-semibold text-lg text-primary sm:text-2xl lg:text-1.2vw 2xl:text-1.3vw">
+        <h5 className="font-bold text-xl tracking-wide sm:text-3xl">{name}</h5>
+        <h6 className="font-semibold text-lg text-primary sm:text-2xl">
           {status}
         </h6>
       </div>
-      <p className="font-medium text-md text-light text-center sm:text-xl lg:text-1vw 2xl:text-1.1vw">
+      <p className="font-medium text-md text-light text-center sm:text-xl">
         {description}
       </p>
     </div>
@@ -69,12 +66,14 @@ interface IServiceCard extends ComponentPropsWithRef<"div"> {
   index: number;
   title: string;
   description: string;
+  slug?: string;
 }
 
 export const ServiceCard = ({
   index,
   title,
   description,
+  slug,
   ...props
 }: IServiceCard) => {
   const { setService } = useMain();
@@ -86,7 +85,7 @@ export const ServiceCard = ({
     <div ref={ref}>
       <div
         key={index}
-        className="serviceCard flex flex-col items-center justify-between bg-black-dark rounded-md text-light"
+        className="serviceCard flex flex-col items-center justify-between bg-dark-darken rounded-md text-light"
         style={animation2(isInView, 0.25 * (index + 1) + 0.25)}
         {...props}
       >
@@ -95,13 +94,16 @@ export const ServiceCard = ({
           <p className="text-lg font-medium sm:text-lg 2xl:leading-tight">
             {description}
           </p>
-          <Link onClick={() => setService(title)} href={`/portfolio`}>
-            <button className="flex items-center space-x-1 border-b border-primary text-primary text-lg font-semibold sm:border-b-2 sm:text-lg lg:hover:space-x-2">
-              <span>View all portfolio</span>
-              <HiChevronRight className="text-xl sm:text-lg transition-all ease-out duration-200" />
-            </button>
-          </Link>
         </div>
+        <Link
+          onClick={() => setService(title)}
+          href={`/portfolio?service=${slug}`}
+        >
+          <button className="flex items-center space-x-1 border-b border-primary text-primary text-lg font-semibold sm:border-b-2 sm:text-lg lg:hover:space-x-2">
+            <span>View all portfolio</span>
+            <HiChevronRight className="text-xl sm:text-lg transition-all ease-out duration-200" />
+          </button>
+        </Link>
       </div>
     </div>
   );
@@ -110,14 +112,9 @@ export const ServiceCard = ({
 interface IPortfolioCard {
   index: number;
   data: PortfolioType;
-  service_slug: string;
 }
 
-export const PortfolioCard = ({
-  index,
-  data,
-  service_slug,
-}: IPortfolioCard) => {
+export const PortfolioCard = ({ index, data }: IPortfolioCard) => {
   return (
     <div
       key={index}
@@ -125,20 +122,33 @@ export const PortfolioCard = ({
     >
       <div className="flex flex-col space-y-5 items-center sm:space-y-6">
         <div className="portfolioCard__image rounded-md">
-          <Image src={data.thumbnail_image} alt="Portfolio" />
+          <Image
+            src={data.portfolio_thumbnail_image?.url}
+            alt="Portfolio"
+            width={1280}
+            height={720}
+          />
         </div>
-        <h3 className="text-xl font-bold text-center sm:text-3xl lg:text-1.5vw 2xl:text-1.6vw 2xl:leading-none">
-          {data.title}
+
+        <h3 className="text-xl font-bold text-center sm:text-3xl lg:leading-none">
+          {data.portfolio_name}
         </h3>
+
+        <BadgePrimary className="items-self-center">Exhibition</BadgePrimary>
+
         <div className="w-full flex flex-col text-sm sm:text-2xl lg:text-xs xl:text-sm 2xl:text-base">
-          {data.location !== "" && <p>{`- ${data.location}`}</p>}
-          {data.area !== "" && <p>{`- ${data.area}`}</p>}
+          {data.portfolio_location !== "-" && (
+            <p>{`- ${data.portfolio_location}`}</p>
+          )}
+          {data.portfolio_area !== "-" && <p>{`- ${data.portfolio_area}`}</p>}
         </div>
       </div>
-      <Link href={`/portfolio/${service_slug}/${data.slug}`}>
-        <button className="flex items-center space-x-1 border-b border-primary text-primary text-lg font-semibold sm:border-b-2 sm:text-2xl lg:text-1.1vw lg:hover:space-x-2 2xl:text-1.2vw">
+      <Link
+        href={`/portfolio/${data?.service?.service_slug}/${data.portfolio_slug}`}
+      >
+        <button className="flex items-center space-x-1 border-b border-primary text-primary text-lg font-semibold sm:border-b-2 lg:hover:space-x-2 cursor-pointer">
           <span>View details</span>
-          <HiChevronRight className="text-xl sm:text-2xl lg:text-1.2vw 2xl:text-1.3vw transition-all ease-out duration-200" />
+          <HiChevronRight className="text-xl sm:text-lg transition-all ease-out duration-200" />
         </button>
       </Link>
     </div>

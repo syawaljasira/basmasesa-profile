@@ -1,15 +1,15 @@
 "use client";
 
-import "./Footer.scss";
-import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 // import { TbBrandTiktok } from "react-icons/tb";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
 import LogoSm from "@/public/images/basma-logo-and-title-short.png";
 import LogoLg from "@/public/images/basma-logo-long.png";
 import { navItems } from "@/constants";
-import { usePathname } from "next/navigation";
+import "./Footer.scss";
 
 const Footer = () => {
   const pathname = usePathname();

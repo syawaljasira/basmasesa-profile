@@ -74,9 +74,11 @@ const Clients = () => {
               className="w-6/12 px-4 py-2 flex justify-center items-center z-10 sm:px-6 sm:py-3 lg:px-8 lg:py-0 lg:w-4/12 2xl:px-10"
             >
               <Image
-                src={item?.image}
-                alt={item?.name}
+                src={item?.client_img?.url}
+                alt={item?.client_name}
                 style={animation2(isInView, 0.25 + 0.25 * (index + 1))}
+                width={500}
+                height={500}
               />
             </div>
           );

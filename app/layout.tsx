@@ -43,7 +43,7 @@ export default function RootLayout({
             <Navbar />
           </header>
 
-          <main className="mainLayout__children relative bg-black pt-[8.5vh]">
+          <main className="mainLayout__children relative bg-dark pt-[8.5vh]">
             {children}
           </main>
 

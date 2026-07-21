@@ -49,7 +49,7 @@ const ContactNow = ({
         <></>
       ) : (
         <Title className="text-center sm:w-10/12 sm:mx-auto">
-          For Project Enquiries, Please Contact Us Below
+          For Project Enquiries <br /> Please Contact Us Below
         </Title>
       )}
       <form
@@ -57,42 +57,42 @@ const ContactNow = ({
         className="w-full flex flex-col font-medium space-y-6 py-10 sm:space-y-8 sm:py-16 lg:w-8/12 lg:mx-auto lg:flex-row lg:flex-wrap lg:justify-between lg:space-y-0 2xl:py-20"
       >
         <div className="contactNow__input w-full flex flex-row items-center lg:w-30%">
-          <HiOutlineUser className="text-2xl text-gray-input mx-1 sm:text-3xl lg:text-1.6vw" />
+          <HiOutlineUser className="text-2xl text-gray-input mx-1 sm:text-2xl" />
           <input
             type="text"
             name="inbox_name"
             id="inbox_name"
             required
             autoComplete="none"
-            className="text-lg w-full sm:text-2xl lg:text-1.2vw"
+            className="text-lg w-full sm:text-2xl"
             placeholder="Your name"
             value={form?.inbox_name}
             onChange={(e) => setForm({ ...form, inbox_name: e.target.value })}
           />
         </div>
         <div className="contactNow__input w-full flex flex-row items-center lg:w-30%">
-          <HiOutlineMail className="text-2xl text-gray-input mx-1 sm:text-3xl lg:text-1.6vw" />
+          <HiOutlineMail className="text-2xl text-gray-input mx-1 sm:text-2xl" />
           <input
             type="email"
             name="email"
             id="email"
             required
             autoComplete="off"
-            className="text-lg w-full sm:text-2xl lg:text-1.2vw"
+            className="text-lg w-full sm:text-2xl"
             placeholder="Your email"
             value={form?.inbox_email}
             onChange={(e) => setForm({ ...form, inbox_email: e.target.value })}
           />
         </div>
         <div className="contactNow__input w-full flex flex-row items-center lg:w-30%">
-          <HiOutlinePhone className="text-2xl text-gray-input mx-1 sm:text-3xl lg:text-1.6vw" />
+          <HiOutlinePhone className="text-2xl text-gray-input mx-1 sm:text-2xl" />
           <input
-            type="number"
+            type="tel"
             name="phone"
             id="phone"
             required
             autoComplete="none"
-            className="text-lg w-full sm:text-2xl lg:text-1.2vw"
+            className="text-lg w-full sm:text-2xl"
             placeholder="Your number"
             value={form?.inbox_phone}
             onChange={(e) => setForm({ ...form, inbox_phone: e.target.value })}
@@ -101,9 +101,9 @@ const ContactNow = ({
         <div className="contactNow__input w-full flex flex-col lg:w-full lg:pt-16 2xl:pt-20">
           <label
             htmlFor="message"
-            className="flex flex-row items-center text-gray-input text-lg sm:text-2xl lg:text-1.2vw"
+            className="flex flex-row items-center text-gray-input text-lg sm:text-2xl"
           >
-            <HiOutlineChat className="text-2xl text-gray-input mx-1 sm:text-3xl lg:text-1.6vw" />
+            <HiOutlineChat className="text-2xl text-gray-input mx-1 sm:text-2xl" />
             <span className="text-gray-input">Message</span>
           </label>
           <textarea
@@ -111,7 +111,7 @@ const ContactNow = ({
             id="message"
             required
             autoComplete="none"
-            className="text-lg w-full bg-gray sm:text-2xl lg:text-1.2vw"
+            className="text-lg w-full bg-gray sm:text-2xl"
             rows={4}
             placeholder="..."
             value={form?.inbox_message}

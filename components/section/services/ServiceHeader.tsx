@@ -1,3 +1,5 @@
+"use client";
+
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 
@@ -22,16 +24,13 @@ const ServiceHeader = () => {
   return (
     <header
       ref={ref}
-      className="w-10/12 flex flex-col items-center space-y-4 sm:space-y-6 sm:w-11/12 sm:mx-auto 2xl:space-y-10"
+      className="w-10/12 flex flex-col items-center space-y-4 sm:space-y-6 sm:w-11/12 sm:mx-auto"
     >
-      <h1
-        className="text-4xl font-bold sm:text-6xl lg:text-3vw"
-        style={animation(isInView, 0)}
-      >
+      <h1 className="text-4xl font-bold" style={animation(isInView, 0)}>
         Our Services
       </h1>
       <p
-        className="text-base text-center font-medium sm:text-2xl lg:text-1.5vw 2xl:text-1.55vw"
+        className="text-base text-center font-medium sm:text-xl"
         style={animation(isInView, 0.25)}
       >
         Basmasesa is a very experienced contractor,

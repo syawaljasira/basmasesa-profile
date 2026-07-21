@@ -51,7 +51,7 @@ const VisionMission = () => {
           Our Vision
         </h3>
         <p
-          className="text-md text-light font-medium text-center sm:text-2xl lg:text-1vw 2xl:text-1.15vw"
+          className="text-md text-light font-medium text-center sm:text-2xl lg:text-lg"
           style={animation(isInView, 0.25)}
         >
           At Basmasesa, our vision is to become the leading event, exhibition &
@@ -68,7 +68,7 @@ const VisionMission = () => {
           Our Mission
         </h3>
         <p
-          className="text-md text-light font-medium text-center sm:text-2xl lg:text-1vw 2xl:text-1.15vw"
+          className="text-md text-light font-medium text-center sm:text-2xl lg:text-lg"
           style={animation(isInView, 0.75)}
         >
           Our mission is to provide clients with high-quality services that are

@@ -86,24 +86,24 @@ const SomeWork = () => {
           className="workCard flex justify-center items-center lg:mb-8 2xl:mb-12"
           style={animation2(isInView, 0.3)}
         >
-          <div className="w-full h-full flex flex-col justify-between items-start bg-dark shadow-lg text-light p-5vw lg:p-2vw">
+          <div className="w-full h-full flex flex-col justify-between items-start bg-dark shadow-lg text-light p-10 lg:p-8">
             <div className="flex flex-col items-start sm:space-y-1 2xl:space-y-3">
-              <h4 className="text-3xl font-bold tracking-wide sm:text-5xl lg:text-2.5vw 2xl:text-2.7vw 2xl:pb-1 2xl:pt-2">
+              <h4 className="text-3xl font-bold tracking-wide sm:text-5xl lg:text-4xl">
                 Basmasesa
               </h4>
-              <h6 className="text-xl font-medium sm:text-3xl sm:font-semibold lg:text-1.6vw lg:pt-1 2xl:text-1.7vw">
+              <h6 className="text-xl font-medium sm:text-3xl sm:font-semibold lg:text-2xl">
                 Event, Exhibition & Interior
               </h6>
-              <p className="text-base font-medium pt-2 sm:text-2xl lg:text-1vw 2xl:text-1.1vw">
+              <p className="text-base font-medium pt-2 sm:text-lg lg:text-lg">
                 Build your imagine design and make it happen.
               </p>
             </div>
             <Link
               href="/portfolio"
-              className="flex items-center space-x-1 border-b border-primary text-primary text-lg font-semibold sm:border-b-2 sm:text-2xl lg:text-1.1vw lg:hover:space-x-2 2xl:text-1.2vw"
+              className="flex items-center space-x-1 border-b border-primary text-primary text-lg font-semibold sm:border-b-2 sm:text-2xl lg:text-lg lg:hover:space-x-2"
             >
               <span>View all portfolio</span>
-              <HiChevronRight className="text-xl sm:text-2xl lg:text-1.2vw transition-all ease-out duration-200 2xl:text-1.25vw" />
+              <HiChevronRight className="text-xl sm:text-2xl lg:text-xl transition-all ease-out duration-200" />
             </Link>
           </div>
         </div>

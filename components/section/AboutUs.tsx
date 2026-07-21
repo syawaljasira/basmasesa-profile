@@ -60,7 +60,7 @@ const AboutUs = () => {
       >
         <Title style={animation(isInView, 0)}>About Us</Title>
         <p
-          className="text-md font-medium sm:text-2xl lg:text-1vw 2xl:text-1.15vw"
+          className="text-md font-medium sm:text-2xl lg:text-lg"
           style={animation(isInView, 0.25)}
         >
           <strong>Basmasesa</strong>&nbsp;— with more than 22 years experience
