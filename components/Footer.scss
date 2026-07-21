@@ -1,0 +1,22 @@
+.footer {
+  margin-top: -2px;
+  background-color: var(--color-black);
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    padding: 6vh 6vw 2rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .footer {
+    padding: 6vh 6vw 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 4vh 6vw 2rem;
+  }
+}

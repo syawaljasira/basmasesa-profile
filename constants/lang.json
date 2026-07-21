@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "language": "id-ID",
+    "label": "Indonesia",
+    "section": {
+      "home": {},
+      "services": {},
+      "portfolio": {},
+      "portfolio_details": {},
+      "contact": {}
+    }
+  },
+  {
+    "id": 2,
+    "language": "en-US",
+    "label": "English",
+    "section": {
+      "home": {
+        "hero": {
+          "h2": "Basmasesa",
+          "h1": "Event, Exhibition & Interior",
+          "h3": "Build your imagine design and make it happen."
+        },
+        "about_us": {
+          "title": "About Us",
+          "text": "<strong>Basmasesa</strong>&nbsp;— with more than 22 years experience in event, exhibition, festive decorations and interior contractor, Basmasesa is your one-stop event, exhibition & interior contractor for all your needs and wants. We offer a comprehensive service that makes your dream event come to life!"
+        },
+        "our_vision": {
+          "title": "Our Vision",
+          "text": "At Basmasesa, our vision is to become the leading event, exhibition & interior contractor in the world. We strive for excellence in everything we do and believe in delivering outstanding results for every project we work on."
+        },
+        "our_mission": {
+          "title": "Our Mission",
+          "text": "Our mission is to provide clients with high-quality services that are tailored to their individual needs and expectations. We are dedicated to creating unique experiences that will leave a lasting impression on your guests."
+        },
+        "some_work": {
+          "title": "Some Of The Results Of Our Work",
+          "h2": "Basmasesa",
+          "h1": "Event, Exhibition & Interior",
+          "h3": "Build your imagine design and make it happen."
+        },
+        "clients": {
+          "title": "Trusted By Our Clients"
+        },
+        "cta": {
+          "call": "Call Now",
+          "services": "See Our Services",
+          "portfolio": "View all portofolio"
+        }
+      },
+      "services": {
+        "header": {
+          "h2": "Our Services",
+          "h1": "Basmasesa is a very experienced contractor, We offer a comprehensive service that makes your dream event come to life!"
+        },
+        "list": [
+          {
+            "id": 1,
+            "title": "Exhibition",
+            "description": "Our exhibition services are designed to help you create captivating and impactful exhibitions that leave a lasting impression on attendees. We understand the importance of showcasing your products, services, and brand in a way that stands out from the competition and engages your target audience.",
+            "slug": "exhibition-contractor"
+          },
+          {
+            "id": 2,
+            "title": "Design Interior",
+            "description": "Our interior design team will meticulously craft a design concept that aligns with your branding and showcases your contracting services. We focus on creating visually compelling spaces that reflect your style and expertise.",
+            "slug": "design-interior"
+          }
+        ]
+      },
+      "portfolio": {
+        "header": "Our Portofolio"
+      },
+      "portfolio_details": {
+        "title_client": "Client",
+        "title_location": "Location"
+      },
+      "contact": {}
+    }
+  }
+]

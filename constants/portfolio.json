@@ -1,0 +1,545 @@
+[
+  {
+    "service_id": 1,
+    "service": "Exhibition",
+    "description": "Our exhibition services are designed to help you create captivating and impactful exhibitions that leave a lasting impression on attendees. We understand the importance of showcasing your products, services, and brand in a way that stands out from the competition and engages your target audience.",
+    "slug": "exhibition",
+    "portfolio": [
+      {
+        "portfolio_id": 1,
+        "title": "Booth Kota Baru Parahyangan - 2020",
+        "thumbnail_image": "/images/portfolio/kbp-tsm-2020/img-1.png",
+        "description": "Kota Baru Parahyangan Exhibition 2020 adalah sebuah pameran yang bertujuan untuk memperkenalkan dan mempromosikan berbagai proyek properti menarik di Kota Baru Parahyangan. Acara ini diadakan di Trans Studio Mall sebagai platform yang strategis untuk menjangkau khalayak yang lebih luas. Pameran ini menyajikan berbagai penawaran properti terbaru yang mencakup perumahan, apartemen, pusat bisnis, dan fasilitas komersial lainnya di Kota Baru Parahyangan. Dalam acara ini, pengunjung dapat melihat gambaran mendalam tentang proyek-proyek ini melalui presentasi visual yang menarik, brosur, dan informasi lengkap mengenai fasilitas, keunggulan lokasi, serta potensi investasi yang ditawarkan.",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-tsm-2020",
+        "area": "",
+        "date": "",
+        "location": "Trans Studio Mall, Bandung",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-tsm-2020/img-1.png",
+            "caption": "Kota Baru Parahyangan TSM 2020"
+          },
+          {
+            "image": "/images/portfolio/kbp-tsm-2020/img-2.png",
+            "caption": "Kota Baru Parahyangan TSM 2020"
+          },
+          {
+            "image": "/images/portfolio/kbp-tsm-2020/img-3.png",
+            "caption": "Kota Baru Parahyangan TSM 2020"
+          },
+          {
+            "image": "/images/portfolio/kbp-tsm-2020/img-4.png",
+            "caption": "Kota Baru Parahyangan TSM 2020"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 2,
+        "title": "Booth Kota Baru Parahyangan - 2022",
+        "thumbnail_image": "/images/portfolio/kbp-tsm-2022/img-1.png",
+        "description": "Kota Baru Parahyangan Exhibition 2022 adalah sebuah pameran yang bertujuan untuk memperkenalkan dan mempromosikan berbagai proyek properti menarik di Kota Baru Parahyangan. Acara ini diadakan di Trans Studio Mall sebagai platform yang strategis untuk menjangkau khalayak yang lebih luas. Pameran ini menyajikan berbagai penawaran properti terbaru yang mencakup perumahan, apartemen, pusat bisnis, dan fasilitas komersial lainnya di Kota Baru Parahyangan. Dalam acara ini, pengunjung dapat melihat gambaran mendalam tentang proyek-proyek ini melalui presentasi visual yang menarik, brosur, dan informasi lengkap mengenai fasilitas, keunggulan lokasi, serta potensi investasi yang ditawarkan.",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-tsm-2022",
+        "area": "4.0 x 7.0 m (28 m2)",
+        "date": "Juli, September & Desember 2022",
+        "location": "Trans Studio Mall, Bandung",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-tsm-2022/img-1.png",
+            "caption": "Kota Baru Parahyangan TSM 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-tsm-2022/img-2.png",
+            "caption": "Kota Baru Parahyangan TSM 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-tsm-2022/img-3.png",
+            "caption": "Kota Baru Parahyangan TSM 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-tsm-2022/img-4.png",
+            "caption": "Kota Baru Parahyangan TSM 2022"
+          }
+          ,{
+            "image": "/images/portfolio/kbp-tsm-2022/img-5.png",
+            "caption": "Kota Baru Parahyangan TSM 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-tsm-2022/img-6.png",
+            "caption": "Kota Baru Parahyangan TSM 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-tsm-2022/img-7.png",
+            "caption": "Kota Baru Parahyangan TSM 2022"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 3,
+        "title": "Booth Kota Baru Parahyangan - 2022",
+        "thumbnail_image": "/images/portfolio/kbp-ikea-2022/img-1.png",
+        "description": "",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-ikea-2022",
+        "area": "",
+        "date": "",
+        "location": "IKEA, Bandung",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-ikea-2022/img-1.png",
+            "caption": "Kota Baru Parahyangan IKEA 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ikea-2022/img-2.png",
+            "caption": "Kota Baru Parahyangan IKEA 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ikea-2022/img-3.png",
+            "caption": "Kota Baru Parahyangan IKEA 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ikea-2022/img-4.png",
+            "caption": "Kota Baru Parahyangan IKEA 2022"
+          }
+          ,{
+            "image": "/images/portfolio/kbp-ikea-2022/img-5.png",
+            "caption": "Kota Baru Parahyangan IKEA 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ikea-2022/img-6.png",
+            "caption": "Kota Baru Parahyangan IKEA 2022"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 4,
+        "title": "Booth Kota Baru Parahyangan - 2023",
+        "thumbnail_image": "/images/portfolio/kbp-ice-2023/img-1.png",
+        "description": "",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-ice-2023",
+        "area": "",
+        "date": "",
+        "location": "ICE BSD, Tangerang",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-ice-2023/img-1.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2023/img-2.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2023/img-3.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2023/img-4.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          }
+          ,{
+            "image": "/images/portfolio/kbp-ice-2023/img-5.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2023/img-6.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2023/img-7.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2023/img-8.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2023/img-9.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2023/img-10.png",
+            "caption": "Kota Baru Parahyangan ICE 2023"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 5,
+        "title": "Booth Kota Baru Parahyangan - 2022",
+        "thumbnail_image": "/images/portfolio/kbp-ice-2022/img-1.png",
+        "description": "",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-ice-2022",
+        "area": "",
+        "date": "",
+        "location": "ICE BSD, Tangerang",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-ice-2022/img-1.png",
+            "caption": "Kota Baru Parahyangan ICE 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2022/img-2.png",
+            "caption": "Kota Baru Parahyangan ICE 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2022/img-3.png",
+            "caption": "Kota Baru Parahyangan ICE 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2022/img-4.png",
+            "caption": "Kota Baru Parahyangan ICE 2022"
+          }
+          ,{
+            "image": "/images/portfolio/kbp-ice-2022/img-5.png",
+            "caption": "Kota Baru Parahyangan ICE 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2022/img-6.png",
+            "caption": "Kota Baru Parahyangan ICE 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2022/img-7.png",
+            "caption": "Kota Baru Parahyangan ICE 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2022/img-8.png",
+            "caption": "Kota Baru Parahyangan ICE 2022"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 6,
+        "title": "Booth Kota Baru Parahyangan - 2020",
+        "thumbnail_image": "/images/portfolio/kbp-ice-2020/img-1.png",
+        "description": "",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-ice-2020",
+        "area": "",
+        "date": "",
+        "location": "ICE BSD, Tangerang",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-ice-2020/img-1.png",
+            "caption": "Kota Baru Parahyangan ICE 2020"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2020/img-2.png",
+            "caption": "Kota Baru Parahyangan ICE 2020"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2020/img-3.png",
+            "caption": "Kota Baru Parahyangan ICE 2020"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2020/img-4.png",
+            "caption": "Kota Baru Parahyangan ICE 2020"
+          }
+          ,{
+            "image": "/images/portfolio/kbp-ice-2020/img-5.png",
+            "caption": "Kota Baru Parahyangan ICE 2020"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2020/img-6.png",
+            "caption": "Kota Baru Parahyangan ICE 2020"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2020/img-7.png",
+            "caption": "Kota Baru Parahyangan ICE 2020"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 7,
+        "title": "Booth Kota Baru Parahyangan - 2019",
+        "thumbnail_image": "/images/portfolio/kbp-ice-2019/img-1.png",
+        "description": "",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-ice-2019",
+        "area": "",
+        "date": "",
+        "location": "ICE BSD, Tangerang",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-ice-2019/img-1.png",
+            "caption": "Kota Baru Parahyangan ICE 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2019/img-2.png",
+            "caption": "Kota Baru Parahyangan ICE 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2019/img-3.png",
+            "caption": "Kota Baru Parahyangan ICE 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2019/img-4.png",
+            "caption": "Kota Baru Parahyangan ICE 2019"
+          }
+          ,{
+            "image": "/images/portfolio/kbp-ice-2019/img-5.png",
+            "caption": "Kota Baru Parahyangan ICE 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2019/img-6.png",
+            "caption": "Kota Baru Parahyangan ICE 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2019/img-7.png",
+            "caption": "Kota Baru Parahyangan ICE 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-ice-2019/img-8.png",
+            "caption": "Kota Baru Parahyangan ICE 2019"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 8,
+        "title": "Booth Kota Baru Parahyangan - 2022",
+        "thumbnail_image": "/images/portfolio/kbp-aeon-2022/img-1.png",
+        "description": "",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-aeon-2022",
+        "area": "3.0 x 5.0 m (15 m2)",
+        "date": "23 - 28 Agustus 2022",
+        "location": "Mall AEON BSD, Tangerang",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-aeon-2022/img-1.png",
+            "caption": "Kota Baru Parahyangan AEON 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-aeon-2022/img-2.png",
+            "caption": "Kota Baru Parahyangan AEON 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-aeon-2022/img-3.png",
+            "caption": "Kota Baru Parahyangan AEON 2022"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 9,
+        "title": "Booth Kota Baru Parahyangan - 2022",
+        "thumbnail_image": "/images/portfolio/kbp-bbw-2022/img-1.png",
+        "description": "",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-bbw-2022",
+        "area": "",
+        "date": "",
+        "location": "",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-bbw-2022/img-1.png",
+            "caption": "Kota Baru Parahyangan BBW 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-bbw-2022/img-2.png",
+            "caption": "Kota Baru Parahyangan BBW 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-bbw-2022/img-3.png",
+            "caption": "Kota Baru Parahyangan BBW 2022"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 10,
+        "title": "Booth Kota Baru Parahyangan - 2022",
+        "thumbnail_image": "/images/portfolio/kbp-gandaria-city-2022/img-1.png",
+        "description": "",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-gandaria-city-2022",
+        "area": "3.0 x 4.0 m (12 m2)",
+        "date": "18 - 24 Juli 2022",
+        "location": "Mall Gandaria City, Jakarta",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-gandaria-city-2022/img-1.png",
+            "caption": "Kota Baru Parahyangan Gandaria City 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-gandaria-city-2022/img-2.png",
+            "caption": "Kota Baru Parahyangan Gandaria City 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-gandaria-city-2022/img-3.png",
+            "caption": "Kota Baru Parahyangan Gandaria City 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-gandaria-city-2022/img-4.png",
+            "caption": "Kota Baru Parahyangan Gandaria City 2022"
+          },
+          {
+            "image": "/images/portfolio/kbp-gandaria-city-2022/img-5.png",
+            "caption": "Kota Baru Parahyangan Gandaria City 2022"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 11,
+        "title": "Booth ITJEN Agama - 2022",
+        "thumbnail_image": "/images/portfolio/itjen-agama-2022/img-1.png",
+        "description": "",
+        "client": "ITJEN Agama",
+        "slug": "itjen-agama-2022",
+        "area": "",
+        "date": "",
+        "location": "",
+        "images": [
+          {
+            "image": "/images/portfolio/itjen-agama-2022/img-1.png",
+            "caption": "ITJEN Agama 2022"
+          },
+          {
+            "image": "/images/portfolio/itjen-agama-2022/img-2.png",
+            "caption": "ITJEN Agama 2022"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 12,
+        "title": "Booth Kota Baru Parahyangan - 2019",
+        "thumbnail_image": "/images/portfolio/kbp-citylink-2019/img-1.png",
+        "description": "",
+        "client": "Kota Baru Parahyangan, Bandung",
+        "slug": "stand-kbp-modul-citylink-2019",
+        "area": "",
+        "date": "",
+        "location": "Citylink Mall, Bandung",
+        "images": [
+          {
+            "image": "/images/portfolio/kbp-citylink-2019/img-1.png",
+            "caption": "Kota Baru Parahyangan Citylink 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-citylink-2019/img-2.png",
+            "caption": "Kota Baru Parahyangan Citylink 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-citylink-2019/img-3.png",
+            "caption": "Kota Baru Parahyangan Citylink 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-citylink-2019/img-4.png",
+            "caption": "Kota Baru Parahyangan Citylink 2019"
+          }
+          ,{
+            "image": "/images/portfolio/kbp-citylink-2019/img-5.png",
+            "caption": "Kota Baru Parahyangan Citylink 2019"
+          },
+          {
+            "image": "/images/portfolio/kbp-citylink-2019/img-6.png",
+            "caption": "Kota Baru Parahyangan Citylink 2019"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "service_id": 2,
+    "service": "Design Interior",
+    "description": "Our interior design team will meticulously craft a design concept that aligns with your branding and showcases your contracting services. We focus on creating visually compelling spaces that reflect your style and expertise.",
+    "slug": "design-interior",
+    "portfolio": [
+      {
+        "portfolio_id": 1,
+        "title": "Kitchen Set A",
+        "thumbnail_image": "/images/portfolio/kitchen-set-a/img-1.png",
+        "description": "",
+        "client": "",
+        "slug": "kitchen-set-a",
+        "area": "",
+        "date": "",
+        "location": "",
+        "images": [
+          {
+            "image": "/images/portfolio/kitchen-set-a/img-1.png",
+            "caption": "Kitchen Set View 1"
+          },
+          {
+            "image": "/images/portfolio/kitchen-set-a/img-2.png",
+            "caption": "Kitchen Set View 2"
+          },
+          {
+            "image": "/images/portfolio/kitchen-set-a/img-3.png",
+            "caption": "Kitchen Set View 3"
+          },
+          {
+            "image": "/images/portfolio/kitchen-set-a/img-4.png",
+            "caption": "Kitchen Set View 4"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 2,
+        "title": "Kitchen Set B",
+        "thumbnail_image": "/images/portfolio/kitchen-set-b/img-1.png",
+        "description": "",
+        "client": "",
+        "slug": "kitchen-set-b",
+        "area": "",
+        "date": "",
+        "location": "",
+        "images": [
+          {
+            "image": "/images/portfolio/kitchen-set-b/img-1.png",
+            "caption": "Kitchen Set View 1"
+          },
+          {
+            "image": "/images/portfolio/kitchen-set-b/img-2.png",
+            "caption": "Kitchen Set View 2"
+          },
+          {
+            "image": "/images/portfolio/kitchen-set-b/img-3.png",
+            "caption": "Kitchen Set View 3"
+          },
+          {
+            "image": "/images/portfolio/kitchen-set-b/img-4.png",
+            "caption": "Kitchen Set View 4"
+          },
+          {
+            "image": "/images/portfolio/kitchen-set-b/img-5.png",
+            "caption": "Kitchen Set View 5"
+          }
+        ]
+      },
+      {
+        "portfolio_id": 3,
+        "title": "Pantry A",
+        "thumbnail_image": "/images/portfolio/pantry-a/img-1.png",
+        "description": "",
+        "client": "",
+        "slug": "pantry-a",
+        "area": "",
+        "date": "",
+        "location": "",
+        "images": [
+          {
+            "image": "/images/portfolio/pantry-a/img-1.png",
+            "caption": "Pantry View 1"
+          },
+          {
+            "image": "/images/portfolio/pantry-a/img-2.png",
+            "caption": "Pantry View 2"
+          },
+          {
+            "image": "/images/portfolio/pantry-a/img-3.png",
+            "caption": "Pantry View 3"
+          },
+          {
+            "image": "/images/portfolio/pantry-a/img-4.png",
+            "caption": "Pantry View 4"
+          },
+          {
+            "image": "/images/portfolio/pantry-a/img-5.png",
+            "caption": "Pantry View 5"
+          }
+        ]
+      }
+    ]
+  }
+]

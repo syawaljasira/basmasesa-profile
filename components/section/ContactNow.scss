@@ -1,0 +1,134 @@
+@media screen and (max-width: 640px) {
+  .contactNow {
+    width: auto;
+    padding: 10vh 6vw;
+    overflow: hidden;
+
+    &__input {
+      border-bottom: 2px solid var(--color-gray-dark);
+
+      textarea,
+      input {
+        outline: none;
+        background-color: transparent;
+        padding: 8px 12px;
+        color: var(--color-gray-input);
+        resize: none;
+      }
+
+      input:autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus {
+        background-color: transparent !important;
+      }
+
+      label {
+        span {
+          color: var(--color-gray-input);
+          padding: 8px 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .contactNow {
+    width: auto;
+    padding: 8vh 6vw 4vh;
+    overflow: hidden;
+
+    &__input {
+      border-bottom: 2px solid var(--color-gray-dark);
+
+      textarea,
+      input {
+        outline: none;
+        background-color: transparent;
+        padding: 10px 12px;
+        color: var(--color-gray-input);
+        resize: none;
+      }
+      input:autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus {
+        background-color: transparent !important;
+      }
+
+      label {
+        span {
+          color: var(--color-gray-input);
+          padding: 8px 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contactNow {
+    width: auto;
+    padding: 8vh 6vw 4vh;
+    overflow: hidden;
+
+    &__input {
+      border-bottom: 2px solid var(--color-gray-dark);
+
+      textarea,
+      input {
+        outline: none;
+        background-color: transparent !important;
+        padding: 10px 12px;
+        color: var(--color-gray-input);
+        resize: none;
+      }
+
+      input:autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus {
+        background-color: transparent !important;
+      }
+
+      label {
+        span {
+          color: var(--color-gray-input);
+          padding: 8px 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .contactNow {
+    width: auto;
+    padding: 8vh 6vw 4vh;
+    overflow: hidden;
+
+    &__input {
+      border-bottom: 2px solid var(--color-gray-dark);
+
+      textarea,
+      input {
+        outline: none;
+        background-color: transparent !important;
+        padding: 13px 12px;
+        color: var(--color-gray-input);
+        resize: none;
+      }
+
+      input:autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus {
+        background-color: transparent !important;
+      }
+
+      label {
+        span {
+          color: var(--color-gray-input);
+          padding: 8px 10px;
+        }
+      }
+    }
+  }
+}

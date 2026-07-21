@@ -1,0 +1,47 @@
+@media screen and (max-width: 640px) {
+  .visionMission {
+    padding: 0 6vw;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .visionMission {
+    padding: 0 6vw;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .visionMission {
+    padding: 2vw 6vw;
+    position: relative;
+
+    .square__image {
+      position: absolute;
+      width: auto;
+      height: 27vh;
+      right: -7.5vw;
+      z-index: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+
+      img {
+        width: auto;
+        height: 27vh;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .visionMission {
+    .square__image {
+      right: -8vw;
+    }
+  }
+}

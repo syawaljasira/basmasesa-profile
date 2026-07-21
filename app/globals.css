@@ -1,26 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Domine:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* --color-primary: #e99d0f; */
+  --color-primary: #fb7e39;
+  --color-primary-light: #ffd382;
+
+  --color-gray: #31414b;
+  --color-gray-dark: #222d34;
+  --color-gray-light: #475a65;
+  --color-gray-input: #839198;
+  --color-gray-surface: #aeaeae;
+
+  --color-black: #13191d;
+  --color-black-dark: #090d0f;
+  --color-black-light: #182025;
+
+  --color-light: #ffffff;
+
+  --font-sans: "Quicksand", sans-serif;
+  --font-serif: "Domine", serif;
+  --font-display: "Calistoga", cursive;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-primary: #fb7e39;
+  --color-primary-light: #ffd382;
+
+  --color-gray: #31414b;
+  --color-gray-dark: #222d34;
+  --color-gray-light: #475a65;
+  --color-gray-input: #839198;
+  --color-gray-surface: #aeaeae;
+
+  --color-black: #13191d;
+  --color-black-dark: #090d0f;
+  --color-black-light: #182025;
+
+  --color-light: #ffffff;
+
+  --font-sans: "Quicksand", sans-serif;
+  --font-serif: "Domine", serif;
+  --font-display: "Calistoga", cursive;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@custom-variant dark (&:where(.dark, .dark *));
+
+@utility transition-hover {
+  transition: all 150ms cubic-bezier(0, 0, 0.2, 1);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility transition-open {
+  transition: all 250ms cubic-bezier(0.04, 0.62, 0.23, 0.98);
+}
+
+.absolute-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.absolute-x-center {
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.absolute-y-center {
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Raditya Dika",
+    "status": "Public Figure",
+    "image": "/images/testimonial/user1.webp",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A necessitatibus culpa nobis, incidunt tempora magnam."
+  },
+  {
+    "name": "Deddy Corbuzier",
+    "status": "Public Figure",
+    "image": "/images/testimonial/user2.webp",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel non quo iste? Voluptatem, fugiat quod quasi quae ipsam quo cupiditate ratione."
+  },
+  {
+    "name": "Annisa Steviani",
+    "status": "Financial Expert",
+    "image": "/images/testimonial/user3.webp",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit, incidunt tempora magnam."
+  },
+  {
+    "name": "Doddy Prayogo",
+    "status": "Financial Expert",
+    "image": "/images/testimonial/user4.webp",
+    "description": "Lorem ipsum dolor sit, adipisicing elit. A necessitatibus culpa nobis, incidunt tempora magnam."
+  },
+  {
+    "name": "Kefas Evender",
+    "status": "Financial Expert",
+    "image": "/images/testimonial/user5.webp",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A necessitatibus culpa nobis, incidunt tempora magnam."
+  },
+  {
+    "name": "Philip Mulyana",
+    "status": "Financial Expert",
+    "image": "/images/testimonial/user6.webp",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel non quo iste? Voluptatem, fugiat quod quasi quae ipsam quo cupiditate ratione."
+  }
+]
