@@ -9,6 +9,7 @@ import { PortfolioCard } from "@/components/Card";
 import { useMain } from "@/hooks/useMain";
 import "./Portfolio.scss";
 import Title from "@/components/Title";
+import Spinner from "@/components/Spinner";
 
 const animation = (isInView: boolean, delay: number) => {
   const style = {
@@ -23,19 +24,6 @@ const animation = (isInView: boolean, delay: number) => {
   return style;
 };
 
-const animation2 = (isInView: boolean, delay: number) => {
-  const style = {
-    transform: isInView ? "none" : "translateY(50px)",
-    WebkitTransform: isInView ? "none" : "translateY(50px)",
-    MozTransform: isInView ? "none" : "translateY(50px)",
-    msTransform: isInView ? "none" : "translateY(50px)",
-    OTransform: isInView ? "none" : "translateY(50px)",
-    opacity: isInView ? 1 : 0,
-    transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${delay + 0.3}s`,
-  };
-  return style;
-};
-
 const Portfolio = () => {
   const {
     service,
@@ -44,6 +32,7 @@ const Portfolio = () => {
     getServices,
     getPortfolios,
     setService,
+    errorPortfolios,
   } = useMain();
 
   // Animation
@@ -166,29 +155,27 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="portfolio__main-list text-light flex flex-col space-y-14 sm:space-y-20 lg:space-y-10">
-            {portfoliosList === null || portfoliosList?.length === 0 ? (
-              <div className="flex justify-center items-center">
-                <h2>Maaf portfolio belum ada.</h2>
+          <div className="service__list w-full flex flex-col space-y-6 lg:space-y-10 lg:flex-row lg:flex-wrap">
+            {portfoliosList === null ? (
+              <div className="w-full h-[25vh] flex justify-center items-center">
+                {errorPortfolios === null ? (
+                  <Spinner />
+                ) : (
+                  <h2 className="text-xl font-bold text-white">
+                    {errorPortfolios || "Maaf protfolio belum ada."}
+                  </h2>
+                )}
               </div>
             ) : (
-              portfoliosList?.map((item, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="ctx.service w-full flex flex-col items-start space-y-6 sm:space-y-8"
-                  >
-                    <div className="service__list w-full flex flex-col items-center space-y-6 sm:space-y-8 sm:items-center lg:space-y-0 lg:flex-row lg:flex-wrap lg:items-start lg:justify-between">
-                      <div
-                        key={item.portfolio_id}
-                        style={animation2(isInView, 0.25 * (index + 1) + 0.25)}
-                      >
-                        <PortfolioCard index={index} data={item} />
-                      </div>
+              <>
+                {portfoliosList?.map((item, index) => {
+                  return (
+                    <div className="w-full h-full lg:w-1/3 px-5" key={index}>
+                      <PortfolioCard index={index} data={item} />
                     </div>
-                  </div>
-                );
-              })
+                  );
+                })}
+              </>
             )}
           </div>
         </main>

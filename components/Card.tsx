@@ -109,16 +109,22 @@ export const ServiceCard = ({
   );
 };
 
-interface IPortfolioCard {
+interface IPortfolioCard extends ComponentPropsWithRef<"div"> {
   index: number;
   data: PortfolioType;
 }
 
-export const PortfolioCard = ({ index, data }: IPortfolioCard) => {
+export const PortfolioCard = ({ index, data, ...props }: IPortfolioCard) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
     <div
+      ref={ref}
       key={index}
-      className="portfolioCard w-full flex flex-col justify-between items-center bg-dark-darken rounded-md text-light mx-auto"
+      className="portfolioCard w-full h-full flex flex-col justify-between items-center bg-dark-darken rounded-md text-light mx-auto space-y-10"
+      style={animation2(isInView, 0.25 * (index + 1))}
+      {...props}
     >
       <div className="flex flex-col space-y-5 items-center sm:space-y-6">
         <div className="portfolioCard__image rounded-md">
@@ -127,14 +133,17 @@ export const PortfolioCard = ({ index, data }: IPortfolioCard) => {
             alt="Portfolio"
             width={1280}
             height={720}
+            loading="eager"
           />
         </div>
 
-        <h3 className="text-xl font-bold text-center sm:text-3xl lg:leading-none">
+        <h3 className="text-xl font-bold text-center sm:text-2xl lg:leading-none">
           {data.portfolio_name}
         </h3>
 
-        <BadgePrimary className="items-self-center">Exhibition</BadgePrimary>
+        <BadgePrimary className="items-self-center">
+          {data?.service?.service_name}
+        </BadgePrimary>
 
         <div className="w-full flex flex-col text-sm sm:text-2xl lg:text-xs xl:text-sm 2xl:text-base">
           {data.portfolio_location !== "-" && (
@@ -143,6 +152,7 @@ export const PortfolioCard = ({ index, data }: IPortfolioCard) => {
           {data.portfolio_area !== "-" && <p>{`- ${data.portfolio_area}`}</p>}
         </div>
       </div>
+
       <Link
         href={`/portfolio/${data?.service?.service_slug}/${data.portfolio_slug}`}
       >
